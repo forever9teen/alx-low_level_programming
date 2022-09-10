@@ -2,14 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *
- *  *  * *main - Assign a random number to int n everytime
- *
- *   *  * * Prints out the value of n
- *
- *    *  *  * Return: 0 Always (success)
- *
- *     *  **/
+ *  * main - Assign a random number to int n everytime
+ *  * * Prints out the value of n
+ *  * Return: 0 Always (success)
+ * **/
 int main(void)
 {
 

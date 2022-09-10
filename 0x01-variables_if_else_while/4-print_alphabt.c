@@ -1,14 +1,13 @@
 #include <stdio.h>
 /**
- *  * *main -  prints the alphabet in lowercase, followed by a new line.
- *   * * followed by anew line except q and e
- *    * * * Return: Always 0 (success)
- *     * **/
+ *  * main -  prints the alphabet in lowercase, followed by a new line.
+ *   * followed by  a new line except q and e
+ *  * Return: Always 0 (success)
+ *  **/
 int main(void)
 {
 
 	char ch = 'a';
-
 
 	while (ch <= 'z')
 	{
@@ -21,4 +20,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
