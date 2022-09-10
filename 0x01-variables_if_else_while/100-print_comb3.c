@@ -3,10 +3,7 @@
  * ** main - prints all possible different combinations of two digits.
  *
  *  * followed by a newline
- *
- *  *Return 0 (success)
- *   * *Return Always 0 (success)
- *
+ * *Return always 0 (success)
  *  **/
 int main(void)
 {
