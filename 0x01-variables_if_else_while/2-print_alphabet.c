@@ -1,13 +1,9 @@
 #include <stdio.h>
 /**
- *
- *  * * * main - prints the alphabet in lowercase,
- *
- *   * followed by a newline
- *
- *    *  * *Return: Always 0 (successful)
- *
- *     *  **/
+ * * * main - prints the alphabet in lowercase
+ *  * followed by a newline
+ *  * *Return: Always 0 (successful)
+ *  **/
 int main(void)
 {
 	char ch;
