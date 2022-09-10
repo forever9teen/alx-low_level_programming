@@ -9,9 +9,8 @@
  * **/
 int main(void)
 {
-
 	int ch;
-	int n;	
+	int n;
 	int m;
 
 	for (ch = 48; ch <= 57; ch++)
