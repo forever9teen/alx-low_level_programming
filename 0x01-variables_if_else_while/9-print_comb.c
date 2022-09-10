@@ -1,13 +1,10 @@
 #include<stdio.h>
 /**
  *  * main -  prints all possible combinations of single-digit numbers.
- *
  *  * followed by a newline
- *
- *  * *Return: Always 0 (success)
- *
+ *  * Return: Always 0 (success)
  *  **/
-int main (void)
+int main(void)
 {
 
 	int ch;
