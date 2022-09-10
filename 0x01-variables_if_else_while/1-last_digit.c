@@ -2,14 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *
- *  * * * main - prints the last digits of the number
- *
- *   *  * number Stored in the variable int n
- *
- *    *  * * Return: Always  0 (success)
- *
- *     *  **/
+ *  * main - prints the last digits of the number
+ *   * number Stored in the variable int n
+ *  * * Return: Always  0 (success)
+ *  **/
 int main(void)
 {
 	int n;
