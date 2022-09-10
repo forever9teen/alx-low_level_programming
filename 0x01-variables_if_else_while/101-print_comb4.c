@@ -22,19 +22,18 @@ int main (void)
 			{
 				if (n > ch && m > n)
 				{
-
-				putchar(ch);
-				putchar(n);
-				putchar(m);
-				if (ch != 55 || n != 56 || m != 57)
-				{
-					putchar(44);
-					putchar(32):
-				}
+					putchar(ch);
+					putchar(n);
+					putchar(m);
+					if (ch != 55 || n != 56 || m != 57)
+					{
+						putchar(44);
+						putchar(32);
+					}
 				}
 			}
 		}
 	}
 	putchar(10);
-	return(0);
+	return (0);
 }
