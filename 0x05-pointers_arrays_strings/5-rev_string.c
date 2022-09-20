@@ -4,7 +4,7 @@
  * * rev_string - Reverses a string
  * * @s: string to be reversed
  * * Return: nothing
- * */
+ * **/
 void rev_string(char *s)
 {
 	int i, tmp, len = _strlen(s);
@@ -22,7 +22,7 @@ void rev_string(char *s)
  * * _strlen - returns the length of a string
  * * @s: string
  * * Return: the length of the given string
- * */
+ * **/
 int _strlen(char *s)
 {
 	int len = 0;
