@@ -1,5 +1,5 @@
-Write a function that prints a string in reverse.
+Write a function that returns the length of a string.
 
 
 
-Prototype: void _print_rev_recursion(char *s);
+Prototype: int _strlen_recursion(char *s);
