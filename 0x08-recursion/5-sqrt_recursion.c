@@ -16,3 +16,20 @@ int find_sqrt(int num, int root)
 
 	return (find_sqrt(num, root + 1));
 }
+/**
+ * *_sqrt_recursion - Returns the natural square root of a number.
+ * *@n: The number to return the square root of
+ *  If n does not have a natural square root - -1
+ *  **/
+int _sqrt_recursion(int n)
+{
+	int root = 0;
+
+	if (n<0)
+		return (-1);
+
+	if (n==0)
+		return (1);
+
+	return (find_sqrt(n, root));
+}
