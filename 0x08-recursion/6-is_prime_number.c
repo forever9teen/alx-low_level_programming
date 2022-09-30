@@ -1,4 +1,4 @@
-#include "main.h" 
+#include "main.h"
 /**
  * *is_divisible - Checks if a number is divisible.
  * *@num: The number to be checked
