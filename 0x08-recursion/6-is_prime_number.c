@@ -12,7 +12,7 @@ int is_divisible(int num, int div)
 		return (0);
 
 	if (num % div == 0)
-		retrun (0);
+		return (0);
 
 	if (div == num / 2)
 		return (1);
