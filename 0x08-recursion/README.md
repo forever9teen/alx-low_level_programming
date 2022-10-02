@@ -1,7 +1,1 @@
-Write a function that returns the value of x raised to the power of y.
-
-
-
-Prototype: int _pow_recursion(int x, int y);
-
-If y is lower than 0, the function should return -1
+Write a function that returns 1 if the input integer is a prime number, otherwise return 0.
