@@ -8,14 +8,15 @@
  * **/
 int is_divisible(int num, int div)
 {
-	if (n <= 0)
+	if (num <= 1)
 		return (0);
 
-	if (n % i == 0 && i > 1)
-		return (0);
+	if (num % div == 0)
+		retrun (0);
 
-	if ((n / i) < i)
+	if (div == num / 2)
 		return (1);
 
-	return (check_prime (n, i + 1));
+	return (is_divisible(num, div + 1));
+}
 
