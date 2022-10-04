@@ -13,8 +13,12 @@ int main(int argc, char *argv[])
 
 	if (argc > 0)
 	{
-		/*WHILE - Print each arguments*/
+		/*WHILE - Print each arguments*/ 
 		while (count < argc)
 		{
 			printf("%s\n", argv[count]);
-
+			counnt ++;
+		}
+	}
+	return (0);
+}
