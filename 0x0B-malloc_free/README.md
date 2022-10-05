@@ -1,11 +1,11 @@
-Write a function that returns a pointer to a 2 dimensional array of integers.
+Write a function that concatenates all the arguments of your program.
 
 
 
-Prototype: int **alloc_grid(int width, int height);
+Prototype: char *argstostr(int ac, char **av);
 
-Each element of the grid should be initialized to 0
+Returns NULL if ac == 0 or av == NULL
 
-The function should return NULL on failure
+Returns a pointer to a new string, or NULL if it fails
 
-If width or height is 0 or negative, return NULL
+Each argument should be followed by a \n in the new string
