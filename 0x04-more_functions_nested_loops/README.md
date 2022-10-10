@@ -1,13 +1,13 @@
-Write a function that draws a straight line in the terminal.
+Write a function that prints a square, followed by a new line.
 
 
 
-Prototype: void print_line(int n);
+Prototype: void print_square(int size);
 
 You can only use _putchar function to print
 
-Where n is the number of times the character _ should be printed
+Where size is the size of the square
 
-The line should end with a \n
+If size is 0 or less, the function should print only a new line
 
-If n is 0 or less, the function should only print \n
+Use the character # to print the square
