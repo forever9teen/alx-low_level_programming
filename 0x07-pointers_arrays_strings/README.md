@@ -1,7 +1,9 @@
-Write a function that gets the length of a prefix substring.
+Write a function that locates a substring.
 
 
 
-Prototype: unsigned int _strspn(char *s, char *accept);
+Prototype: char *_strstr(char *haystack, char *needle);
 
-Returns the number of bytes in the initial segment of s which consist only of bytes from accept
+The _strstr() function finds the first occurrence of the substring needle in the string haystack. The terminating null bytes (\0) are not compared
+
+Returns a pointer to the beginning of the located substring, or NULL if the substring is not found.
