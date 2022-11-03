@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-
 /**
  * read_textfile - Reads a text file and prints it to POSIX stdout.
  * @filename: A pointer to the name of the file.
@@ -11,6 +10,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 {
 	ssize_t o, r, w;
 	char *buffer;
+
 
 	if (filename == NULL)
 		return (0);
