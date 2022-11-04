@@ -4,7 +4,6 @@
 
 char *create_buffer(char *file);
 void close_file(int fd);
-
 /**
  * create_buffer - Allocates 1024 bytes for a buffer.
  * @file: The name of the file buffer is storing chars for.
@@ -13,6 +12,7 @@ void close_file(int fd);
 char *create_buffer(char *file)
 {
 	char *buffer;
+
 
 	buffer = malloc(sizeof(char) * 1024);
 
@@ -32,6 +32,7 @@ char *create_buffer(char *file)
 void close_file(int fd)
 {
 	int c;
+
 
 	c = close(fd);
 
@@ -55,6 +56,7 @@ int main(int argc, char *argv[])
 {
 	int from, to, r, w;
 	char *buffer;
+
 
 	if (argc != 3)
 	{
