@@ -1,7 +1,11 @@
-Write a function that deletes the head node of a listint_t linked list, and returns the head node’s data (n).
+Write a function that prints all the elements of a listint_t list.
 
 
 
-Prototype: int pop_listint(listint_t **head);
+Prototype: size_t print_listint(const listint_t *h);
 
-if the linked list is empty return 0
+Return: the number of nodes
+
+Format: see example
+
+You are allowed to use printf
