@@ -1,7 +1,7 @@
-Write a function that compares two strings.
+Write a function that reverses the content of an array of integers.
 
 
 
-Prototype: int _strcmp(char *s1, char *s2);
+Prototype: void reverse_array(int *a, int n);
 
-Your function should work exactly like strcmp
+Where n is the number of elements of the array
