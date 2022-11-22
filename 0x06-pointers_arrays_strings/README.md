@@ -1,5 +1,5 @@
-Write a function that changes all lowercase letters of a string to uppercase.
+Write a function that capitalizes all words of a string.
 
 
 
-Prototype: char *string_toupper(char *);
+Prototype: char *cap_string(char *);
