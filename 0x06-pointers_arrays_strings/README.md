@@ -1,21 +1,23 @@
-Write a function that adds two numbers.
+Write a function that prints a buffer.
 
 
 
-Prototype: char *infinite_add(char *n1, char *n2, char *r, int size_r);
+Prototype: void print_buffer(char *b, int size);
 
-Where n1 and n2 are the two numbers
+The function must print the content of size bytes of the buffer pointed by b
 
-r is the buffer that the function will use to store the result
+The output should print 10 bytes per line
 
-size_r is the buffer size
+Each line starts with the position of the first byte of the line in hexadecimal (8 chars), starting with 0
 
-The function returns a pointer to the result
+Each line shows the hexadecimal content (2 chars) of the buffer, 2 bytes at a time, separated by a space
 
-You can assume that you will always get positive numbers, or 0
+Each line shows the content of the buffer. If the byte is a printable character, print the letter, if not, print .
 
-You can assume that there will be only digits in the strings n1 and n2
+Each line ends with a new line \n
 
-n1 and n2 will never be empty
+If size is 0 or less, the output should be a new line only \n
 
-If the result can not be stored in r the function must return 0
+You are allowed to use the standard library
+
+The output should look like the following example, and formatted exactly the same way:
