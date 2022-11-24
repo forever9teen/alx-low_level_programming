@@ -1,13 +1,13 @@
-Write a function that allocates memory for an array, using malloc.
+Write a function that creates an array of integers.
 
 
 
-Prototype: void *_calloc(unsigned int nmemb, unsigned int size);
+Prototype: int *array_range(int min, int max);
 
-The _calloc function allocates memory for an array of nmemb elements of size bytes each and returns a pointer to the allocated memory.
+The array created should contain all the values from min (included) to max (included), ordered from min to max
 
-The memory is set to zero
+Return: the pointer to the newly created array
 
-If nmemb or size is 0, then _calloc returns NULL
+If min > max, return NULL
 
-If malloc fails, then _calloc returns NULL
+If malloc fails, return NULL
