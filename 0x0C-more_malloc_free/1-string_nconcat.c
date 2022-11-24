@@ -1,14 +1,16 @@
 #include "main.h"
 /**
  * * @s1: first string
- *  * @s2: second string
- *  * @n: index
- *   * Return: char pointer
- *   **/
+ * * @s2: second string
+ * * @n: index
+ * *Return: char pointer
+ *  **/
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
+
 	char *p;
 	unsigned int size1 = 0, size2 = 0, i;
+
 
 	if (s1 == NULL)
 		s1 = "";
