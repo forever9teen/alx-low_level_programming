@@ -1,9 +1,9 @@
-Write a function that deletes the node at index index of a dlistint_t linked list.
+Find the password for crackme4.
 
 
 
-Prototype: int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
+Save the password in the file 100-password
 
-where index is the index of the node that should be deleted. Index starts at 0
+Your file should contain the exact password, no new line, no extra space
 
-Returns: 1 if it succeeded, -1 if it failed
+Hint: The program prints “OK” when the password is correct
