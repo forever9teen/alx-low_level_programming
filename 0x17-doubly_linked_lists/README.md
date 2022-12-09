@@ -1,9 +1,11 @@
-Find the password for crackme4.
+A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 
 
 
-Save the password in the file 100-password
+Find the largest palindrome made from the product of two 3-digit numbers.
 
-Your file should contain the exact password, no new line, no extra space
 
-Hint: The program prints “OK” when the password is correct
+
+Save the result in the file 102-result
+
+Your file should contain the exact result, no new line, no extra space
