@@ -1,13 +1,11 @@
-Write a keygen for crackme5.
+A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 
 
 
-Usage of the crackme: ./crackme5 username key
+Find the largest palindrome made from the product of two 3-digit numbers.
 
-The crackme will segfault if you do not enter the correct key for the user
 
-Usage for your keygen: ./keygen5 username
 
-Your keygen should print a valid key for the username
+Save the result in the file 102-result
 
-julien@ubuntu:~/0x17$ gcc -Wall -pedantic -Werror -Wextra -
+Your file should contain the exact result, no new line, no extra space
