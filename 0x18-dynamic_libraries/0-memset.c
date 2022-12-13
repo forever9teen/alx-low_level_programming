@@ -8,12 +8,11 @@
  * * description _memset: over there.
  * * Return: A pointer to the filed memory area @s.
  * **/
-void *_memset(void *s, int c, size_t n)
+char *_memset(char *s, char b, unsigned int n)
 {
-	while (n)
-	{
-		s[n - 1] = b;
-		n--;
-	}
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+		s[i] = b;
 	return (s);
 }
